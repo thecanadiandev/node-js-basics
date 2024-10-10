@@ -9,3 +9,7 @@ MongoDB Atlas: account is for thecanadiandev.
 - In network access, Allow access from anywhere.
 - Make sure built in role is populated.
 - Install mongodb compass & mongoose.
+
+## Schema
+
+- Only those properties set in Schema will be passed onto the database. Everything else is ignored.

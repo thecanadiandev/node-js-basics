@@ -9,8 +9,13 @@ const getTask = (req, res) => {
 }
 
 const createTask = async (req, res) => {
-  const task = await Task.create(req.body)
-  res.status(201).send(task)
+  try {
+    const task = await Task.create(req.body)
+    res.status(201).send(task)
+  } catch (error) {
+    res.status(500).json({ msg: error })
+  }
+  
 }
 
 const updateTask = (req, res) => {
