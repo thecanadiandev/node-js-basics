@@ -1,6 +1,18 @@
 # Project readme
 
-MongoDB Atlas: account is for thecanadiandev.
+A simple node js todo list for practice.
+
+- model,
+- controller,
+- route,
+- middleware,
+- env,
+- mongodb,
+- mongoose,
+- async await
+- error handling
+
+MongoDB Atlas: account is for tcd.
 
 - Create a cluster for free M0
 - Default name, AWS, Default region
@@ -13,3 +25,8 @@ MongoDB Atlas: account is for thecanadiandev.
 ## Schema
 
 - Only those properties set in Schema will be passed onto the database. Everything else is ignored.
+- PUT overwrites, whereas PATCH can selectively update.
+
+## Finished screenshot
+
+![Screenshot](https://gist.github.com/user-attachments/assets/579272bf-bfb6-4007-933c-0c3ada936245)
