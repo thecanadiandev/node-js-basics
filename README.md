@@ -26,7 +26,3 @@ MongoDB Atlas: account is for tcd.
 
 - Only those properties set in Schema will be passed onto the database. Everything else is ignored.
 - PUT overwrites, whereas PATCH can selectively update.
-
-## Finished screenshot
-
-![Screenshot](https://gist.github.com/user-attachments/assets/579272bf-bfb6-4007-933c-0c3ada936245)
