@@ -11,6 +11,7 @@ A simple node js todo list for practice.
 - mongoose,
 - async await
 - error handling
+- custom error handling
 
 MongoDB Atlas: account is for tcd.
 
